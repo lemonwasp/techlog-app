@@ -55,10 +55,9 @@ Ruby on Rails 製のログアプリです。
 ├── .rubocop.yml          # コードスタイル設定
 └── README.md
 
+---
+
 🚀 セットアップ方法
-bash
-복사
-편집
 # Rubyインストール（rbenv使用）
 rbenv install 3.0.4
 rbenv local 3.0.4
@@ -75,24 +74,13 @@ bundle exec rails tailwindcss:install
 bundle exec rails server
 ブラウザで http://localhost:3000 にアクセスして確認してください。
 
+---
 
 🧪 テストの実行
-bash
-복사
-편집
 bin/rspec
 エラーがなければ、テストは正常に通過しています。
 
-📌 Issue管理（例）
- Issue #3: ログイン時エラー対応（保留中）
-
- Issue #7: TailwindのUI整理
-
- Issue #10: プロフィールページの実装中
-
-👤 開発者
-名前	役割
-あなた	設計・開発・テスト・ドキュメント作成
+---
 
 📄 ライセンス
 MIT License
